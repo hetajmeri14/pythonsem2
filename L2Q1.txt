@@ -1,18 +1,7 @@
-Write following programs in Python using If-Condition and Functions
+Count how many vowels are there in a string. Accept the string from the user.
 
-Print largest and smallest values out of two.
 
-def largest_and_smallest(a, b):
-    if a > b:
-        largest = a
-        smallest = b
-    else:
-        largest = b
-        smallest = a
-    
-    print(largest)
-    print(smallest)
-
-a = float(input())
-b = float(input())
-largest_and_smallest(a, b)
+s = input("Enter a string: ")
+vowels = "aeiouAEIOU"
+count = sum(1 for c in s if c in vowels)
+print(f"Vowel count: {count}")
