@@ -1,0 +1,18 @@
+Write following programs in Python using If-Condition and Functions
+
+Print largest and smallest values out of two.
+
+def largest_and_smallest(a, b):
+    if a > b:
+        largest = a
+        smallest = b
+    else:
+        largest = b
+        smallest = a
+    
+    print(largest)
+    print(smallest)
+
+a = float(input())
+b = float(input())
+largest_and_smallest(a, b)

@@ -1,0 +1,35 @@
+Write following programs in Python using If-Condition and Functions
+
+Check whether a given number is odd or even.
+
+def largest_and_smallest(a, b, c):
+    if a > b and a > c:
+        largest = a
+    elif b > c:
+        largest = b
+    else:
+        largest = c
+    
+    if a < b and a < c:
+        smallest = a
+    elif b < c:
+        smallest = b
+    else:
+        smallest = c
+    
+    print(largest)
+    print(smallest)
+
+def check_odd_even(number):
+    if number % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+a = float(input())
+b = float(input())
+c = float(input())
+largest_and_smallest(a, b, c)
+
+num = int(input())
+check_odd_even(num)
