@@ -1,0 +1,8 @@
+Delete an element of a tuple.
+
+t = (1, 2, 3, 4, 5)
+temp_list = list(t)
+del temp_list[2]  # Deleting the element at index 2 (value 3)
+t = tuple(temp_list)
+
+print("Tuple after deletion:", t)

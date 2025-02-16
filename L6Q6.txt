@@ -1,0 +1,11 @@
+Modify an element of a tupl
+
+
+
+t = (1, 2, 3, 4)
+temp_list = list(t)
+temp_list[1] = 99  # Modifying the second element
+t = tuple(temp_list)
+
+print("Modified tuple:", t)
+
