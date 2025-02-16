@@ -1,0 +1,29 @@
+Calculate sin(x); x is a radian value. The formula is as under:
+sin    =    −
+  
+3
+3!
++
+  
+5
+5!
+−
+  
+7
+7!
+…
+
+(hint: degrees can be converted into radians by 3.14159 / 180.)
+
+import math
+
+x = float(input("Enter x in degrees: "))
+x = x * (math.pi / 180) 
+
+sin_x = 0
+terms = 10 
+for n in range(terms):
+    term = ((-1) ** n) * (x ** (2 * n + 1)) / math.factorial(2 * n + 1)
+    sin_x += term
+
+print(f"sin({x}) ≈ {sin_x}")
