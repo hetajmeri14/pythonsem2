@@ -1,0 +1,9 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+Calculate area & perimeter of a square. A = L^2, P = 4L
+
+side = float(input())
+area = side ** 2
+perimeter = 4 * side
+print(area)
+print(perimeter)

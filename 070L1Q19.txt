@@ -1,0 +1,7 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS) 
+
+Calculate area of a circle. A = 22/7 * R * R
+
+radius = float(input())
+area = (22/7) * radius * radius
+print(area)

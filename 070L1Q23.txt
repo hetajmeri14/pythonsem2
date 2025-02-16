@@ -1,0 +1,11 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+Calculate average of three subjects along with their total.
+
+subject1 = float(input())
+subject2 = float(input())
+subject3 = float(input())
+total = subject1 + subject2 + subject3
+average = total / 3
+print(total)
+print(average)

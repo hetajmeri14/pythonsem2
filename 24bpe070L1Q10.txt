@@ -1,0 +1,8 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+Convert dollars into pound where 1 $ = 48 Rs. And 1 pound = 70 Rs.
+
+dollars = float(input())
+rupees = dollars * 48
+pounds = rupees / 70
+print(pounds)

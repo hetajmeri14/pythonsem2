@@ -1,0 +1,7 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+Convert grams into kg
+
+grams = float(input())
+kilograms = grams / 1000
+print(kilograms)

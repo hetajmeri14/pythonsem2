@@ -1,0 +1,9 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS) 
+
+Calculate interest where I = PRN/100.
+
+principal = float(input())
+rate = float(input())
+time = float(input())
+interest = (principal * rate * time) / 100
+print(interest)

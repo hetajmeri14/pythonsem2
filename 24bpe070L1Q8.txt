@@ -1,0 +1,7 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+Convert dollars into Rs. Where 1 $ = 48 Rs
+
+dollars = float(input())
+rupees = dollars * 48
+print(rupees)

@@ -1,0 +1,10 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+
+Convert bytes into KB, MB and GB.
+
+bytes = float(input())
+kb = bytes / 1024
+mb = kb / 1024
+gb = mb / 1024
+print(kb, mb, gb)

@@ -1,0 +1,9 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+Swap two values.
+
+a = float(input())
+b = float(input())
+a, b = b, a
+print(a)
+print(b) 

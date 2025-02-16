@@ -1,0 +1,7 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+Convert Fahrenheit into celcius. C = 5/9 * (F – 32)
+
+fahrenheit = float(input())
+celsius = 5/9 * (fahrenheit - 32)
+print(celsius)

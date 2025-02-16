@@ -1,0 +1,8 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+ Calculate area of a triangle. A = H*L/2
+
+height = float(input())
+length = float(input())
+area = (height * length) / 2
+print(area)

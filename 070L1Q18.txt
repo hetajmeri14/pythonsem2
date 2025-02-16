@@ -1,0 +1,10 @@
+WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE PROGRAMS)
+
+ Calculate area & perimeter of a rectangle. A = L*B, P = 2 (L+B)
+
+length = float(input())
+breadth = float(input())
+area = length * breadth
+perimeter = 2 * (length + breadth)
+print(area)
+print(perimeter)
