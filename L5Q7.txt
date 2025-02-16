@@ -1,0 +1,27 @@
+Write a menu-driven program to implement the stack data structure.
+
+
+class Stack:
+    def __init__(self):
+        self.stack = []
+
+    def push(self, item):
+        self.stack.append(item)
+        print(f"{item} pushed onto stack")
+
+    def pop(self):
+        if self.is_empty():
+            print("Stack is empty, nothing to pop")
+        else:
+            print(f"Popped item: {self.stack.pop()}")
+
+    def peek(self):
+        if self.is_empty():
+            print("Stack is empty")
+        else:
+            print(f"Top item: {self.stack[-1]}")
+
+    def is_empty(self):
+        return len(self.stack) == 0
+
+
